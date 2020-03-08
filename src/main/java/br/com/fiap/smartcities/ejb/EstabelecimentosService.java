@@ -2,6 +2,8 @@ package br.com.fiap.smartcities.ejb;
 
 import br.com.fiap.smartcities.domain.Estabelecimento;
 
+import javax.ejb.Local;
+import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -13,7 +15,11 @@ import java.util.List;
  */
 
 @Stateless
-public class EstabelecimentosService {
+// Anotação remota informa a interface que define quais métodos estão disponíveis remotamente.
+@Remote(EstabelecimentosServiceRemote.class)
+// Anotação que informa a interface que define quais métodos estão disponíveis localmente.
+@Local(EstabelecimentosServiceLocal.class)
+public class EstabelecimentosServiceLocal {
 
     // PersistenceContext indica que o Container EJB injetará no EntityManager as configurações.
     @PersistenceContext

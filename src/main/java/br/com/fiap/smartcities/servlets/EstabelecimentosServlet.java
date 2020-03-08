@@ -1,6 +1,6 @@
 package br.com.fiap.smartcities.servlets;
 
-import br.com.fiap.smartcities.ejb.EstabelecimentosService;
+import br.com.fiap.smartcities.ejb.EstabelecimentosServiceLocal;
 import br.com.fiap.smartcities.ejb.HistoricoPesquisasService;
 
 import javax.servlet.RequestDispatcher;
@@ -32,7 +32,7 @@ public class EstabelecimentosServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        EstabelecimentosService estabelecimentosService = (EstabelecimentosService) req
+        EstabelecimentosServiceLocal estabelecimentosService = (EstabelecimentosServiceLocal) req
                 .getSession().getAttribute("estabelecimentosService");
 
         HistoricoPesquisasService historicoPesquisasService = (HistoricoPesquisasService) req
@@ -55,7 +55,7 @@ public class EstabelecimentosServlet extends HttpServlet {
      * termo. Um String builder é criado para gerar as li do resultado
      *
      */
-    private void pesquisar (String termo, HttpServletRequest req, EstabelecimentosService estabelecimentosService) {
+    private void pesquisar (String termo, HttpServletRequest req, EstabelecimentosServiceLocal estabelecimentosService) {
 
         List<String> resultadoPesquisa = estabelecimentosService.pesquisar(termo);
 

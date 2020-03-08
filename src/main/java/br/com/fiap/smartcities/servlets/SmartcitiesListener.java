@@ -35,7 +35,10 @@ public class SmartcitiesListener implements HttpSessionListener {
              * pois não se sabe se xiste uma instância desse atributo já.
              */
             httpSessionEvent.getSession().setAttribute(
-                    "estabelecimentosService", initialContext.lookup("java:module/EstabelecimentosService")
+                    "estabelecimentosService",
+                    initialContext.lookup(
+                            "java:module/EstabelecimentosService!br.com.fiap.smartcities.Estabelecimentos" +
+                                    "ServiceLocal")
             );  
 
             httpSessionEvent.getSession().setAttribute(
