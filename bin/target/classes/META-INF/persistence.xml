@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+
+
+    <!--    JTa  signifca que o controle de conexões e transações do JPA será feito
+            pelo EJB-->
+    <persistence-unit name="smartcities-orm" transaction-type="JTA">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!--        Nome que o EJB buscará nos standalone como datasource   -->
+        <jta-data-source>java:/smartcitiesDS</jta-data-source>
+
+        <class>br.com.fiap.smartcities.domain.Estabelecimento</class>
+        <class>br.com.fiap.smartcities.domain.TipoEstabelecimento</class>
+
+        <!--    Outra configuração específica do EJB-->
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+
+            <!--            Aqui estarão contidas apenas as configurações do Hibernate-->
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
+            <!--            <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>-->
+            <!--            <property name="javax.persistence.jdbc.user" value="RM83162"/>-->
+            <!--            <property name="javax.persistence.jdbc.password" value="090395"/>-->
+            <!--            <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"/>-->
+            <!--Essas configurações estão no standalone.xml-->
+
+        </properties>
+
+    </persistence-unit>
+</persistence>

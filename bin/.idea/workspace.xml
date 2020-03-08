@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="smartcities-ejb:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e66fd4c-40f7-4854-b350-2b6fddcff57e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YlbQQJn6cYW2x9Vwc3n0k4g2uH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/META-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/java/br/com/fiap/smartcities/domain" />
+      <recent name="$PROJECT_DIR$/src/main/br.com.fiap.smartcities.domain" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss 10.1.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.1.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Djboss.server.default.config=standalone.xml" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="smartcities-ejb:war">
+          <settings />
+        </artifact>
+        <artifact name="smartcities-ejb:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="41553" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smartcities-ejb:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/smartcities-ejb/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="smartcities-ejb:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="41553" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="smartcities-ejb:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e66fd4c-40f7-4854-b350-2b6fddcff57e" name="Default Changelist" comment="" />
+      <created>1583520111328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583520111328</updated>
+      <workItem from="1583520114904" duration="711000" />
+      <workItem from="1583520869890" duration="5491000" />
+      <workItem from="1583527688493" duration="1507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="992" y="106" width="583" height="872" key="#JBoss_10.1.0.Final" timestamp="1583532888172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="992" y="106" width="583" height="872" key="#JBoss_10.1.0.Final/0.0.1920.1040@0.0.1920.1040" timestamp="1583532888172" />
+    <state x="517" y="264" width="800" height="675" key="#JBoss_Server" timestamp="1583526553018">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="517" y="264" width="800" height="675" key="#JBoss_Server/0.0.1920.1040@0.0.1920.1040" timestamp="1583526553018" />
+    <state x="821" y="191" width="800" height="675" key="#Schemas_and_DTDs" timestamp="1583526617827">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="191" width="800" height="675" key="#Schemas_and_DTDs/0.0.1920.1040@0.0.1920.1040" timestamp="1583526617827" />
+    <state x="689" y="178" width="1084" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583532845661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="178" width="1084" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583532845661" />
+    <state x="287" y="226" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1583525844686">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="287" y="226" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583525844686" />
+    <state x="223" y="167" width="800" height="675" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1583526628520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="223" y="167" width="800" height="675" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1040@0.0.1920.1040" timestamp="1583526628520" />
+    <state x="700" y="345" width="424" height="510" key="FileChooserDialogImpl" timestamp="1583526551379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="345" width="424" height="510" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583526551379" />
+    <state width="614" height="251" key="GridCell.Tab.0.bottom" timestamp="1583532882952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="614" height="251" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583532882952" />
+    <state width="614" height="251" key="GridCell.Tab.0.center" timestamp="1583532882951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="614" height="251" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583532882951" />
+    <state width="614" height="251" key="GridCell.Tab.0.left" timestamp="1583532882951">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="614" height="251" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583532882951" />
+    <state width="614" height="251" key="GridCell.Tab.0.right" timestamp="1583532882952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="614" height="251" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583532882952" />
+    <state width="621" height="251" key="GridCell.Tab.1.bottom" timestamp="1583526992650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="621" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583526992650" />
+    <state width="621" height="251" key="GridCell.Tab.1.center" timestamp="1583526992649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="621" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583526992649" />
+    <state width="621" height="251" key="GridCell.Tab.1.left" timestamp="1583526992648">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="621" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583526992648" />
+    <state width="621" height="251" key="GridCell.Tab.1.right" timestamp="1583526992650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="621" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583526992650" />
+    <state x="410" y="181" width="1024" height="843" key="SettingsEditor" timestamp="1583526976290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="410" y="181" width="1024" height="843" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583526976290" />
+    <state x="1078" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1583527693128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1078" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583527693128" />
+    <state x="142" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1583526100131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="142" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583526100131" />
+  </component>
+</project>
